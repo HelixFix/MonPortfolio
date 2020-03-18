@@ -689,7 +689,7 @@ if (!isset($_SESSION)) {
 
 			<ul class="copyright" style="margin-bottom: 1em;">
 
-				<li>&copy; 2020 <a title="Code du portfolio" href="https://github.com/HelixFix/helixfix.github.io" target="_blank" rel="noopener noreferrer"><span>Jérôme
+				<li>&copy; 2020 <a title="Code du portfolio" href="https://github.com/HelixFix/MonPortfolio" target="_blank" rel="noopener noreferrer"><span>Jérôme
 							Rinner</span></a></li>
 				<li>|</li>
 				<li>Design: <a href="http://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a></li>
