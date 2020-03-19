@@ -500,6 +500,7 @@ if (!isset($_SESSION)) {
 
 									<a href="#hideWordpress">Retour</a>
 									<a class="vivify2 pulsate2" title="Lien vers GitHub" style="background: white;color: black;margin-left:10px;" href="https://github.com/HelixFix/Theme-Wordpress" target="_blank" rel="noopener noreferrer">GitHub</a>
+									<a class="vivify2 pulsate2" title="Lien vers le projet" style="background: white;color: black;margin-left:10px;" href="https://jeromer401.promo-36.codeur.online/Wordpress/" target="_blank" rel="noopener noreferrer">Le projet</a>
 
 								</div>
 
@@ -554,14 +555,14 @@ if (!isset($_SESSION)) {
 
 							<div class="col-6 col-12-medium">
 
-								<input type="text" name="name" placeholder="Nom" />
+								<input id="name" type="text" name="name" placeholder="Nom" onkeyup=""/>
 								<p class="error" id="error-name"></p>
 
 							</div>
 
 							<div class="col-6 col-12-medium">
 								
-								<input type="text" name="email" placeholder="Adresse électronique" />
+								<input id="email" type="text" name="email" placeholder="Adresse électronique" onkeyup=""/>
 								<p class="error" id="error-email"></p>
 
 							</div>
@@ -572,9 +573,9 @@ if (!isset($_SESSION)) {
 
 							</div>
 
-							<div class="col-12">
+							<div id="message" class="col-12">
 
-								<textarea name="message" placeholder="Message" rows="6"></textarea>
+								<textarea name="message" placeholder="Message" rows="6" validateForm()></textarea>
 								<p class="error" id="error-message"></p>
 
 							</div>

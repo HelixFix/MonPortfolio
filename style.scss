@@ -46,7 +46,6 @@
     }
   }
   
-  
   *, *:before, *:after {
     box-sizing: border-box;
   }
@@ -109,8 +108,6 @@
     //colors (optional)
     @include colors(8,[#1A237E, #b5a1b7, #aaafc3, #daa384, #A5D6A7, #6c4331, #555, #a88504]);
   }
-  
-  
   
   @include moveInGrid(3, 8);
   

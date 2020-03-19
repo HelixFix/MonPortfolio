@@ -3070,3 +3070,12 @@ textarea {
 .complinebot {
 margin-bottom: 2em;
 	}
+
+.valid {
+	background: green;
+	}
+	
+.invalid {
+	background: red;
+	border:2px solid red;
+	}

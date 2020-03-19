@@ -496,17 +496,19 @@
 function validateForm(){
 	let name = document.forms["form"]["name"].value;
 	let email = document.forms["form"]["email"].value;
-  let message = document.forms["form"]["message"].value;
+  	let message = document.forms["form"]["message"].value;
 
     atpos = email.indexOf("@");
     dotpos = email.lastIndexOf(".");
     
     if (atpos < 1 || ( dotpos - atpos < 2 )) {
         document.getElementById('error-email').innerHTML = "Veuillez entrer une adresse électronique correcte *"
+		this.className = "valid"
     }
   
 	if (name.length<1) {
         document.getElementById('error-name').innerHTML = " Veuillez entrer votre nom *"
+		this.className = "valid"
     }
     if (email.length<1) {
         document.getElementById('error-email').innerHTML = " Veuillez entrer votre adresse électronique *";
@@ -517,4 +519,37 @@ function validateForm(){
     if(name.length<1 || email.length<1 || message.length<1 || (atpos < 1 || ( dotpos - atpos < 2 ))){
        	return false;
     }            
+}
+
+function checkName() {
+	let name = document.forms["form"]["name"].value;
+  
+	if (name.length<1) {
+		document.getElementById("name").className = 'valid';
+		return true;
+	} 
+	else if (name.length>1) {
+		document.getElementById("name").className = 'invalid';
+		return false;
+	}
+}
+
+function checkMail() {
+	let email = document.forms["form"]["email"].value;
+	atpos = email.indexOf("@");
+    dotpos = email.lastIndexOf(".");
+  
+	if (atpos < 1 || ( dotpos - atpos < 2 )) {
+		document.getElementById("email").className = 'valid';
+		return true;
+	} 
+	if (email.length<1) {
+		document.getElementById("email").className = 'invalid';
+		return true;
+	} 
+
+	else if (email.length>1) {
+		document.getElementById("email").className = 'invalid';
+		return false;
+	}
 }
