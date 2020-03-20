@@ -388,8 +388,8 @@ if (!isset($_SESSION)) {
 									<hr class="complinebot" style="width:10em; margin: auto;">
 
 									<a href="#hideConvert">Retour</a>
-									<a class="vivify2 pulsate2" title="Lien vers GitHub" style="background: white;color: black;margin-left:10px;" href="https://github.com/HelixFix/ageConverter" target="_blank" rel="noopener noreferrer">GitHub</a>
-									<a class="vivify2 pulsate2" title="Lien vers le projet" style="background: white;color: black;margin-left:10px;" href="https://github.com/HelixFix/ageConverter#ageconverter" target="_blank" rel="noopener noreferrer">Le projet</a>
+									<a class="vivify2 pulsate2" title="Lien vers GitHub" style="background: white;color: black;margin-left:10px;" href="https://github.com/HelixFix/ageConverter#ageconverter" target="_blank" rel="noopener noreferrer">GitHub</a>
+									<a class="vivify2 pulsate2" title="Lien vers le projet" style="background: white;color: black;margin-left:10px;" href="https://jeromer401.promo-36.codeur.online/ageConverter-master/" target="_blank" rel="noopener noreferrer">Le projet</a>
 
 								</div>
 
