@@ -190,7 +190,7 @@ if (!isset($_SESSION)) {
 
 									<a href="#hideToutUnCinema">Retour</a>
 									<a class="vivify2 pulsate2" title="Lien vers GitHub" style="background: white;color: black;margin-left:10px;" href="https://github.com/joansor/AmericanMovies" target="_blank" rel="noopener noreferrer">GitHub</a>
-									<a class="vivify2 pulsate2" title="Lien vers le projet" style="background: white;color: black;margin-left:10px;" href="https://jeromer401.promo-36.codeur.online/toutuncinema/ target="_blank" rel="noopener noreferrer"">Le projet</a>
+									<a class="vivify2 pulsate2" title="Lien vers le projet" style="background: white;color: black;margin-left:10px;" href="https://jeromer401.promo-36.codeur.online/toutuncinema/" target="_blank" rel="noopener noreferrer"">Le projet</a>
 
 								</div>
 
